@@ -5,7 +5,7 @@ const cors = require('cors');
 require('./db/Conn')
 
 app.use(cors({
-    origin: ["http://13.235.78.86:80"],
+    origin: ["http://13.235.78.86:80/"],
     methods: ["GET", "POST"],
 }))
 
