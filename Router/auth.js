@@ -6,7 +6,7 @@ const User = require('../models/userSchema');
 const user = require('../models/userSchema');
 
 router.get('/', (req, res) =>{
-    res.send(`Hello World from the Server router js`)
+    res.send(`Hello World from the cellix Services testing`)
 });
 
 // Search for all Patents
