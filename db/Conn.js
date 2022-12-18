@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const DB = 'mongodb+srv://root:root@cellixbio.wa5aa69.mongodb.net/Cellix-Bio-Asests?retryWrites=true&w=majority'
+const DB = 'mongodb+srv://vamsee:cellix@testing.nox0miq.mongodb.net/test?retryWrites=true&w=majority'
 
 mongoose.connect(DB, {
     // useNewUrlParser: true,
