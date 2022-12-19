@@ -4,11 +4,11 @@ const app = express();
 const cors = require('cors');
 require('./db/Conn')
 
-app.use(cors({
-    origin: ["http://13.235.78.86:80/"],
-    methods: ["GET", "POST"],
-}))
-
+// app.use(cors({
+//     origin: ["http://13.235.78.86:80/"],
+//     methods: ["GET", "POST"],
+// }))
+app.use(cors());
 app.use(express.json());
 
 app.use(require('./Router/auth'));
